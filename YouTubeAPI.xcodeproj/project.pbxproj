@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E87E16A6282BFE4C00A928D8 /* SecondSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E16A5282BFE4C00A928D8 /* SecondSlider.swift */; };
+		E87E16AA282C0D9E00A928D8 /* ThirdSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E16A9282C0D9E00A928D8 /* ThirdSlider.swift */; };
 		E8ABEFC0282AD19500CE00FC /* YouTubeAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ABEFBF282AD19500CE00FC /* YouTubeAPIApp.swift */; };
 		E8ABEFC2282AD19500CE00FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ABEFC1282AD19500CE00FC /* ContentView.swift */; };
 		E8ABEFC4282AD19800CE00FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8ABEFC3282AD19800CE00FC /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E87E16A5282BFE4C00A928D8 /* SecondSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSlider.swift; sourceTree = "<group>"; };
+		E87E16A9282C0D9E00A928D8 /* ThirdSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdSlider.swift; sourceTree = "<group>"; };
 		E8ABEFBC282AD19500CE00FC /* YouTubeAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8ABEFBF282AD19500CE00FC /* YouTubeAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeAPIApp.swift; sourceTree = "<group>"; };
 		E8ABEFC1282AD19500CE00FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				E8ABEFC1282AD19500CE00FC /* ContentView.swift */,
+				E87E16A5282BFE4C00A928D8 /* SecondSlider.swift */,
+				E87E16A9282C0D9E00A928D8 /* ThirdSlider.swift */,
 				E8ABEFD2282AE6E300CE00FC /* MainSlider.swift */,
 			);
 			path = View;
@@ -148,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87E16A6282BFE4C00A928D8 /* SecondSlider.swift in Sources */,
+				E87E16AA282C0D9E00A928D8 /* ThirdSlider.swift in Sources */,
 				E8ABEFC2282AD19500CE00FC /* ContentView.swift in Sources */,
 				E8ABEFC0282AD19500CE00FC /* YouTubeAPIApp.swift in Sources */,
 				E8ABEFD3282AE6E300CE00FC /* MainSlider.swift in Sources */,

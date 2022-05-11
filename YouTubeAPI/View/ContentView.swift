@@ -22,15 +22,11 @@ struct ContentView: View {
                 
                 VStack {
                     MainSlider()
-                    
-                    Text("Playlist name")
-                        .fontWeight(.bold)
-                        .foregroundColor(.white)
-                        .font(.largeTitle)
-                        .multilineTextAlignment(.leading)
-                        
+                    SecondSlider()
+                    ThirdSlider()
                         
                 }
+                
                 
             }
             .navigationTitle("YouTube API")

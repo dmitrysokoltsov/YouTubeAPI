@@ -9,10 +9,13 @@ import SwiftUI
 
 struct MainSlider: View {
     
-    public let timer = Timer.publish(every:3,on:.main,in:.common).autoconnect()
+    
     @State private var selection = 0
     
+    public let timer = Timer.publish(every:3,on:.main,in:.common).autoconnect()
+    
     let album = ["one","two","thre","four"]
+    
     var body: some View {
         TabView(selection : $selection){
             
@@ -20,8 +23,10 @@ struct MainSlider: View {
                 Image("\(album[i])")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
+                    .frame(width: 339, height: 180)
             }
         }
+        
         .tabViewStyle(PageTabViewStyle())
         .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .never))
             .onReceive(timer, perform: { _ in
