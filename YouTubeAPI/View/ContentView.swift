@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var show = false
     
     init() {
         let navBarAppearance = UINavigationBar.appearance()
@@ -24,10 +25,20 @@ struct ContentView: View {
                     MainSlider()
                     SecondSlider()
                     ThirdSlider()
-                        
+                    
                 }
-                
-                
+                .onTapGesture {
+                    withAnimation {
+                        show.toggle()
+                    }
+                }
+
+                if show {
+                    BottomSheet()
+                        .transition(.move(edge: .bottom))
+                        .zIndex(1)
+                }
+                                
             }
             .navigationTitle("YouTube API")
         }
