@@ -10,10 +10,28 @@ import SwiftUI
 struct BottonSheetContent: View {
     var body: some View {
         VStack {
-            Image("thre")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 339, height: 180)
+            RoundedRectangle(cornerRadius: 3, style: .continuous)
+                .frame(width: 40, height: 5)
+                .padding(8)
+            HStack {
+                Button {
+                    print("Prev video")
+                } label: {
+                    Image("Prev")
+                }
+                Button {
+                    print("Pause video")
+                } label: {
+                    Image("Pause")
+                }
+                Button {
+                    print("Next video")
+                } label: {
+                    Image("Next")
+                }
+                
+            }
+            
         }
     }
 }
