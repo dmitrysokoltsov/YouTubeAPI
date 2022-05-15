@@ -14,6 +14,8 @@
 		E8ABEFC4282AD19800CE00FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8ABEFC3282AD19800CE00FC /* Assets.xcassets */; };
 		E8ABEFC7282AD19800CE00FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8ABEFC6282AD19800CE00FC /* Preview Assets.xcassets */; };
 		E8ABEFD3282AE6E300CE00FC /* MainSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ABEFD2282AE6E300CE00FC /* MainSlider.swift */; };
+		E8EA02EA282FFAC900C064F2 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EA02E9282FFAC900C064F2 /* BottomSheet.swift */; };
+		E8EA02EC282FFB3100C064F2 /* BottonSheetContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EA02EB282FFB3100C064F2 /* BottonSheetContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		E8ABEFC3282AD19800CE00FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8ABEFC6282AD19800CE00FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8ABEFD2282AE6E300CE00FC /* MainSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSlider.swift; sourceTree = "<group>"; };
+		E8EA02E9282FFAC900C064F2 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		E8EA02EB282FFB3100C064F2 /* BottonSheetContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottonSheetContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 		E8ABEFBE282AD19500CE00FC /* YouTubeAPI */ = {
 			isa = PBXGroup;
 			children = (
+				E8EA02E8282FFA8D00C064F2 /* Componention */,
 				E8ABEFCF282AE60C00CE00FC /* View */,
 				E8ABEFBF282AD19500CE00FC /* YouTubeAPIApp.swift */,
 				E8ABEFC3282AD19800CE00FC /* Assets.xcassets */,
@@ -77,11 +82,20 @@
 			isa = PBXGroup;
 			children = (
 				E8ABEFC1282AD19500CE00FC /* ContentView.swift */,
-				E87E16A5282BFE4C00A928D8 /* SecondSlider.swift */,
-				E87E16A9282C0D9E00A928D8 /* ThirdSlider.swift */,
-				E8ABEFD2282AE6E300CE00FC /* MainSlider.swift */,
+				E8EA02E9282FFAC900C064F2 /* BottomSheet.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E8EA02E8282FFA8D00C064F2 /* Componention */ = {
+			isa = PBXGroup;
+			children = (
+				E87E16A5282BFE4C00A928D8 /* SecondSlider.swift */,
+				E8ABEFD2282AE6E300CE00FC /* MainSlider.swift */,
+				E87E16A9282C0D9E00A928D8 /* ThirdSlider.swift */,
+				E8EA02EB282FFB3100C064F2 /* BottonSheetContent.swift */,
+			);
+			path = Componention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +170,8 @@
 			files = (
 				E87E16A6282BFE4C00A928D8 /* SecondSlider.swift in Sources */,
 				E87E16AA282C0D9E00A928D8 /* ThirdSlider.swift in Sources */,
+				E8EA02EC282FFB3100C064F2 /* BottonSheetContent.swift in Sources */,
+				E8EA02EA282FFAC900C064F2 /* BottomSheet.swift in Sources */,
 				E8ABEFC2282AD19500CE00FC /* ContentView.swift in Sources */,
 				E8ABEFC0282AD19500CE00FC /* YouTubeAPIApp.swift in Sources */,
 				E8ABEFD3282AE6E300CE00FC /* MainSlider.swift in Sources */,
