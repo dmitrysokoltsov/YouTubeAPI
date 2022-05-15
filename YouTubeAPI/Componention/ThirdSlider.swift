@@ -1,5 +1,5 @@
 //
-//  SecondSlider.swift
+//  ThirdSlider.swift
 //  YouTubeAPI
 //
 //  Created by Dmitry Sokoltsov on 11.05.2022.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct SecondSlider: View {
-    
+struct ThirdSlider: View {
     let album = ["one","two","thre","four"]
     var playlistName = "Pop music"
     var clipName = "Bob Marley"
     var viewCount = "1 300 000 Просмотра"
     
     var body: some View {
+        
         VStack(alignment: .leading) {
             Text(playlistName).bold().font(.system(size: 23))
                 .foregroundColor(.white)
@@ -24,9 +24,8 @@ struct SecondSlider: View {
                     ForEach(0..<4) { i in
                         Image(album[i])
                             .resizable()
-                            .cornerRadius(10)
-                            .frame(width: 180, height: 70)
-                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 135, height: 135)
+                            .aspectRatio(contentMode: .fill)
                 }
                         
                 }
@@ -38,11 +37,12 @@ struct SecondSlider: View {
             
         }
         .padding(.leading, 20.0)
+        .padding(.bottom, 50)
     }
 }
 
-struct SecondSlider_Previews: PreviewProvider {
+struct ThirdSlider_Previews: PreviewProvider {
     static var previews: some View {
-        SecondSlider()
+        ThirdSlider()
     }
 }
