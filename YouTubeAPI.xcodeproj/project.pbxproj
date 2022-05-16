@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E82E8C9A2832C83700D896A6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82E8C992832C83700D896A6 /* Data.swift */; };
 		E87E16A6282BFE4C00A928D8 /* SecondSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E16A5282BFE4C00A928D8 /* SecondSlider.swift */; };
 		E87E16AA282C0D9E00A928D8 /* ThirdSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E16A9282C0D9E00A928D8 /* ThirdSlider.swift */; };
 		E8ABEFC0282AD19500CE00FC /* YouTubeAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ABEFBF282AD19500CE00FC /* YouTubeAPIApp.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E82E8C992832C83700D896A6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		E87E16A5282BFE4C00A928D8 /* SecondSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSlider.swift; sourceTree = "<group>"; };
 		E87E16A9282C0D9E00A928D8 /* ThirdSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdSlider.swift; sourceTree = "<group>"; };
 		E8ABEFBC282AD19500CE00FC /* YouTubeAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E82E8C982832C81D00D896A6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E82E8C992832C83700D896A6 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		E8ABEFB3282AD19500CE00FC = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		E8ABEFBE282AD19500CE00FC /* YouTubeAPI */ = {
 			isa = PBXGroup;
 			children = (
+				E82E8C982832C81D00D896A6 /* Data */,
 				E8EA02E8282FFA8D00C064F2 /* Componention */,
 				E8ABEFCF282AE60C00CE00FC /* View */,
 				E8ABEFBF282AD19500CE00FC /* YouTubeAPIApp.swift */,
@@ -175,6 +186,7 @@
 				E8ABEFC2282AD19500CE00FC /* ContentView.swift in Sources */,
 				E8ABEFC0282AD19500CE00FC /* YouTubeAPIApp.swift in Sources */,
 				E8ABEFD3282AE6E300CE00FC /* MainSlider.swift in Sources */,
+				E82E8C9A2832C83700D896A6 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
